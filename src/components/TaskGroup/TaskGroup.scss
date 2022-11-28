@@ -8,3 +8,16 @@
   justify-content: center;
   align-items: center;
 }
+
+.task-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-block__top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 7px;
+}

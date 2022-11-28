@@ -29,3 +29,31 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.task-title {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.task-date {
+  font-size: 9px;
+  color: #a0a0a0;
+}
+
+.task-description {
+  line-height: 13px;
+}
+
+.task-link {
+  line-height: 13px;
+  color: #0038ff;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.task-delete {
+  cursor: pointer;
+}
