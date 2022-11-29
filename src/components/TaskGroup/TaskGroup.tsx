@@ -3,7 +3,11 @@ import Task from '../Task'
 import './TaskGroup.scss'
 import Plus from '../../assets/images/Plus.svg'
 
-const TaskGroup = () => {
+interface TaskGroupProps {
+  isDone: boolean
+}
+
+const TaskGroup = ({ isDone }: TaskGroupProps) => {
   return (
     <div className="task-block">
       <div className="task-block__top">

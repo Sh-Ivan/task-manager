@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
       <h1>Task Manager</h1>
-      <TaskGroup />
+      <TaskGroup isDone={false} />
+      <TaskGroup isDone={true} />
     </div>
   )
 }
