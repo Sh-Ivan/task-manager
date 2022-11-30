@@ -1,0 +1,47 @@
+@import './variables';
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.app-header {
+  align-items: center;
+  margin: 136px 0 100px 0;
+}
+
+.app-title {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 22px;
+}
+
+.app-description {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  width: 437px;
+}
+
+.arrows {
+  width: 291px;
+  align-self: center;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  cursor: pointer;
+
+  &:hover {
+    fill: $blue-color;
+  }
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
